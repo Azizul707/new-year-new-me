@@ -100,8 +100,9 @@ body {
   width: 1140px;
   margin-bottom: 100px;
 }
-.container-one,img{
-    margin-right: 
+.container-one,
+img {
+  margin-right: ;
 }
 .image-title {
   color: #151414;
@@ -116,11 +117,30 @@ body {
   font-weight: 500;
 }
 /* ! Section three start */
-.section-img-container{
-    width: 1140px;
-    height: 300px;
-    margin: 0 auto;
-    border-radius: 5px;
-    background-image: linear-gradient(to right,rgba(255,0,0,1), rgba(255,0,0,0)), url("images/watch.png");
-    margin-bottom: 100px;
+.section-img-container {
+  width: 1140px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-image: linear-gradient(
+      to right,
+      rgb(255, 89, 0),
+      rgba(255, 0, 0, 0)
+    ),
+    url("images/watch.png");
+  margin-bottom: 100px;
+}
+.container-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 59px;
+  padding-left: 64px;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 68px;
+    padding: 15px 30px;
+    color: #f15b22;
+    font-weight: 600;
 }
